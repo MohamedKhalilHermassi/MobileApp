@@ -226,30 +226,31 @@ class HomePage extends StatelessWidget {
                   decoration: BoxDecoration(
                       boxShadow: [
                         BoxShadow(
-                          color:
-                              Color.fromARGB(255, 52, 34, 34).withOpacity(0.5),
+                          color: const Color.fromARGB(255, 52, 34, 34)
+                              .withOpacity(0.5),
                           spreadRadius: 1,
                           blurRadius: 1,
-                          offset: Offset(0, 3), // changes position of shadow
+                          offset:
+                              const Offset(0, 3), // changes position of shadow
                         ),
                       ],
                       color: Colors.white,
                       border: Border.all(
                         color: Colors.white,
                       ),
-                      borderRadius: BorderRadius.all(Radius.circular(6))),
+                      borderRadius: const BorderRadius.all(Radius.circular(6))),
                   child: Align(
                     alignment: Alignment.center,
                     child: Row(
                       children: [
-                        SizedBox(
+                        const SizedBox(
                           width: 8,
                         ),
-                        Icon(
+                        const Icon(
                           Icons.train,
                           color: Colors.blueGrey,
                         ),
-                        SizedBox(
+                        const SizedBox(
                           width: 20,
                         ),
                         Text(
@@ -261,7 +262,7 @@ class HomePage extends StatelessWidget {
                   ),
                 ),
               ),
-              SizedBox(
+              const SizedBox(
                 height: 25,
               ),
               InkWell(
@@ -277,30 +278,31 @@ class HomePage extends StatelessWidget {
                   decoration: BoxDecoration(
                       boxShadow: [
                         BoxShadow(
-                          color:
-                              Color.fromARGB(255, 52, 34, 34).withOpacity(0.5),
+                          color: const Color.fromARGB(255, 52, 34, 34)
+                              .withOpacity(0.5),
                           spreadRadius: 1,
                           blurRadius: 1,
-                          offset: Offset(0, 3), // changes position of shadow
+                          offset:
+                              const Offset(0, 3), // changes position of shadow
                         ),
                       ],
                       color: Colors.white,
                       border: Border.all(
                         color: Colors.white,
                       ),
-                      borderRadius: BorderRadius.all(Radius.circular(6))),
+                      borderRadius: const BorderRadius.all(Radius.circular(6))),
                   child: Align(
                     alignment: Alignment.center,
                     child: Row(
                       children: [
-                        SizedBox(
+                        const SizedBox(
                           width: 8,
                         ),
-                        Icon(
+                        const Icon(
                           Icons.motorcycle,
                           color: Colors.deepPurple,
                         ),
-                        SizedBox(
+                        const SizedBox(
                           width: 20,
                         ),
                         Text(
@@ -312,7 +314,7 @@ class HomePage extends StatelessWidget {
                   ),
                 ),
               ),
-              SizedBox(
+              const SizedBox(
                 height: 25,
               ),
               Container(
@@ -336,14 +338,14 @@ class HomePage extends StatelessWidget {
                   alignment: Alignment.center,
                   child: Row(
                     children: [
-                      SizedBox(
+                      const SizedBox(
                         width: 8,
                       ),
-                      Icon(
+                      const Icon(
                         Icons.house,
                         color: Colors.green,
                       ),
-                      SizedBox(
+                      const SizedBox(
                         width: 20,
                       ),
                       Text(
